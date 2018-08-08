@@ -9,7 +9,10 @@
 
 .jumbotron h1,
 .jumbotron h2 {
-    color: #fff;
+    background-image: url('../assets/odin.jpg')
+    height: 10px;
+    color: #4dffb8;
+    text-align: justify;
 }
 
 .content-section-b {
