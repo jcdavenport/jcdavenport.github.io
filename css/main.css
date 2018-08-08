@@ -7,11 +7,9 @@
     background-image: url('../assets/background.jpeg')
 }
 
-.jumbotron h1 {
-    font-family: 'Orbitron';font-size: 22px;
-    color: #00ff00;
-},
+.jumbotron h1,
 .jumbotron h2 {
+    font-family: 'Orbitron';
     color: #00ff00;
 }
 
