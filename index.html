@@ -16,6 +16,9 @@
             height: 400px;
             object-fit: none;
         }
+        .clearfix {
+            overflow: auto;
+        }
     </style>
 </head>
 
@@ -44,12 +47,14 @@
     </nav>
 
     <header>
+        <div class="clearfix">
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <h1 style="font-family:'Orbitron';font-size:52px">Joshua Davenport</h1>
+                <h1 style="font-family:'Orbitron';font-size:52px;overflow:auto">Joshua Davenport</h1>
                 <h2>Cybersecurity / Software Engineer & Developer</h2>
                 <img class="a" src="../assets/odin.jpeg" alt="Odin" width="260" height="400">
             </div>
+        </div>
         </div>
     </header>
 
