@@ -12,13 +12,15 @@
     <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
     <style>
         img.a {
-            width: 320px;
-            height: 180px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
             object-fit: contain;
             box-shadow: 10px 10px 5px rgb(12, 186, 255, 0.6);
-        }
-        .clearfix {
-            overflow: auto;
+            float: center;
+            position: relative;
+            top: 15px;
         }
         
     </style>
@@ -48,15 +50,13 @@
         </div>
     </nav>
 
-    <header>
-        <div class="clearfix">
+    <header style="font-family:'Orbitron'">
         <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 style="font-family:'Orbitron';font-size:48px">Joshua Davenport</h1>
-                <h2>[Cybersecurity / Software Engineering & Developent] Laboratories</h2>
-                <img class="a" src="../assets/hack_all_the_things.gif" alt="Hack" width="320" height="180">
+            <div class="container" style="position:relative;bottom:20px">
+                <h1 style="font-size:48px;min-height:14px;text-align:center;position:relative;top:0px">Joshua Davenport</h1>
+                <h2 style="font-size:18px;min-height:8px;text-align:center;position:relative;bottom:10px">[Cybersecurity / Software Engineering & Developent] Laboratories</h2>
+                <img class="a" src="../assets/hack_all_the_things.gif" alt="Hack" min-width="80" min-height="45">
             </div>
-        </div>
         </div>
     </header>
 
