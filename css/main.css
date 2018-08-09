@@ -5,6 +5,7 @@
 .jumbotron {
     height: 60vh;
     background-color: rgb(12, 186, 255, 0.07);
+    overflow:auto
 }
 
 .jumbotron h1,
