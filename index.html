@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/main.css"  type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
     <style>
+
         img.a {
             display: block;
             margin-left: auto;
@@ -24,6 +25,7 @@
             min-width: 256px;
             min-height: 144px;
         }
+
         img.b {
 	            display: block;
 	            margin-left: auto;
@@ -36,7 +38,25 @@
 	            top: 15px;
 	            min-width: 256px;
 	            min-height: 144px;
-	        }
+	 }
+
+         * {box-sizing: border-box}
+
+         .container {
+                 width: 100%;
+                 background-color: #ddd;
+         }
+
+         .skills {
+                 text-align: right;
+                 padding: 10px;
+                 color: white;
+         }
+
+         .cpp {width: 85%; background-color: #4CAF50;}
+         .java {width: 85%; background-color: #2196F3;}
+         .python {width: 70%; background-color: #f44336;}
+         .bash {width: 60%; background-color: #808080;}
         
     </style>
 </head>
@@ -69,7 +89,7 @@
         <div class="jumbotron jumbotron-fluid">
             <div class="container" style="position:relative;bottom:20px">
                 <h1 style="font-size:48px;min-height:14px;text-align:center;position:relative;top:0px">Joshua Davenport</h1>
-                <h2 style="color:#33ccff;font-size:18px;min-height:8px;text-align:center;position:relative;bottom:10px">Cybersecurity / Software Engineering & Developent Laboratories</h2>
+                <h2 style="color:#33ccff;font-size:18px;min-height:8px;text-align:center;position:relative;bottom:10px">Cybersecurity / Systems Engineering & Development Laboratories</h2>
                 <img class="a" src="../assets/hack_all_the_things.gif" alt="Hack">
             </div>
         </div>
@@ -82,7 +102,7 @@
                 <hr>
                 <div class="row">
                     <div class="col-sm-6">
-                        <h3 class="section-heading" style="color:#33ccff">Wanna hear a joke?</h3>
+                        <h3 class="section-heading" style="color:#33ccff">Skill Set</h3>
                         <p class="lead">
                             "Knock knock."
                             <br>
@@ -94,6 +114,25 @@
                             <br>
                             "Psh, no. Cows go <b><i>moo</i></b>"
                         </p>
+			<p>C++</p>
+                        <div class="container">
+                            <div class="skills cpp">85%</div>
+                        </div>
+
+		        <p>Java</p>
+			<div class="container">
+  			    <div class="skills java">85%</div>
+			</div>
+
+			<p>Python</p>
+			<div class="container">
+  			    <div class="skills python">70%</div>
+			</div>
+
+			<p>Bash</p>
+			<div class="container">
+  			    <div class="skills bash">60%</div>
+			</div>
                     </div>
                     <div class="col-sm-6">
                         <h3 class="section-heading" style="color:#33ccff">Here's another knee-slapper</h3>
