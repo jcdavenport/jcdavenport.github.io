@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_health_3 = function(feature, resolution){
+var style_HealthSanitation_3 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
